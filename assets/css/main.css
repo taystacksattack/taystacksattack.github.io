@@ -1361,6 +1361,7 @@ input, select, textarea {
 
 				.row > .col-12-narrower {
 					width: 100%;
+
 				}
 
 				.row > .off-12-narrower {
@@ -2212,7 +2213,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style2 {
-			background-color: #83d3c9;
+			background-color: #4e3f4d;
 			background-image: url("images/light-bl.svg"), url("images/light-br.svg");
 			background-position: bottom left, bottom right;
 			background-repeat: no-repeat, no-repeat;
@@ -3338,4 +3339,14 @@ input, select, textarea {
 				height: 34px;
 			}
 
+	}
+
+
+	#skills-section{
+		display: flex;
+		justify-content: center
+	}
+	#skills-list>i{
+		font-size: 40px;
+		margin: 1rem;
 	}
